@@ -32,4 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'dev-approx-dep', '~> 1.6'
   spec.add_development_dependency 'dev-greater-than-dep', '>= 1.6'
   spec.add_development_dependency 'dev-multi-dep', '~> 6.0', '>= 5.0'
+  
+  # This dependency actually exists and is outdated
+  spec.add_runtime_dependency 'batch-loader', '~> 1.5'
 end
