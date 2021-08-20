@@ -13,7 +13,8 @@
       "matchStrings": [
         "^.*add.*dependency.*['\"](?<depName>.*?)['\"],.*['\"](?<currentValue>.*?)['\"].*"
       ],
-      "datasourceTemplate": "rubygems"
+      "datasourceTemplate": "rubygems",
+      "versioningTemplate": "swift"
     }
   ]
 }
