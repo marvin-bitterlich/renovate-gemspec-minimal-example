@@ -14,7 +14,7 @@
         "^.*add.*dependency.*['\"](?<depName>.*?)['\"],.*['\"](?<currentValue>.*?)['\"].*"
       ],
       "datasourceTemplate": "rubygems",
-      "versioningTemplate": "swift"
+      "versioningTemplate": "ruby"
     }
   ]
 }
