@@ -1,5 +1,5 @@
-
 {
+  "includeForks": true,
   "automerge": false,
   "branchConcurrentLimit": 2,
   "branchPrefix": "renovate-",
@@ -11,9 +11,8 @@
     {
       "fileMatch": ["^*.gemspec"],
       "matchStrings": [
-        "^.*add.*dependency.*['\"](?<depName>.*?)['\"],.*['\"](?<currentValue>.*?)['\"].*"
+        ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
       ],
-      "depNameTemplate": "gemspec",
       "datasourceTemplate": "rubygems",
       "versioningTemplate": "ruby"
     }
