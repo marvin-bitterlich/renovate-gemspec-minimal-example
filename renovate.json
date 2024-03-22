@@ -9,8 +9,9 @@
   "rangeStrategy": "pin",
   "customManagers": [
     {
-      "customType": "regex",
-      "fileMatch": ["^*.gemspec"],
+      "fileMatch": [
+        "^.*\\.gemspec"
+      ],
       "matchStrings": [
         ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
       ],
