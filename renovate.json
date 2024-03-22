@@ -7,8 +7,9 @@
   "dependencyDashboard": true,
   "extends": ["config:base"],
   "rangeStrategy": "pin",
-  "regexManagers": [
+  "customManagers": [
     {
+      "customType": "regex",
       "fileMatch": ["^*.gemspec"],
       "matchStrings": [
         ".*\\.add_(:?(?<depType>.*?)_)?dependency\\s*(['\"])(?<depName>[^'\"]+)(['\"])(\\s*,\\s*(?<currentValue>(['\"])[^'\"]+['\"](\\s*,\\s*['\"][^'\"]+['\"])?))?"
