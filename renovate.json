@@ -6,7 +6,7 @@
   "bumpVersion": "patch",
   "dependencyDashboard": true,
   "extends": ["config:base"],
-  "rangeStrategy": "pin",
+  "rangeStrategy": "auto",
   "customManagers": [
     {
       "customType" : "regex",
