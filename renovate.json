@@ -26,9 +26,6 @@
       "matchPackageNames": [
         "regex"
       ],
-      "matchFileNames": [
-        "^.*\\.gemspec"
-      ],
       "rangeStrategy": "auto"
     }
   ]
