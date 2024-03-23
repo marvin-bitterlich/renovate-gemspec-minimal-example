@@ -23,6 +23,9 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": [
+        "regex"
+      ],
       "matchFileNames": [
         "^.*\\.gemspec"
       ],
