@@ -23,7 +23,7 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": [
+      "matchManagers ": [
         "regex"
       ],
       "rangeStrategy": "auto"
