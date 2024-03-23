@@ -23,7 +23,9 @@
   ],
   "packageRules": [
     {
-      "matchDatasources": ["rubygems "],
+      "matchDatasources": [
+        "rubygems"
+      ],
       "matchManagers ": [
         "regex"
       ],
