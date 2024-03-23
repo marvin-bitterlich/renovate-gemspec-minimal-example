@@ -5,11 +5,12 @@
   "branchPrefix": "renovate-",
   "bumpVersion": "patch",
   "dependencyDashboard": true,
-  "extends": ["config:base"],
-  "rangeStrategy": "auto",
+  "extends": [
+    "config:base"
+  ],
   "customManagers": [
     {
-      "customType" : "regex",
+      "customType": "regex",
       "fileMatch": [
         "^.*\\.gemspec"
       ],
@@ -18,6 +19,14 @@
       ],
       "datasourceTemplate": "rubygems",
       "versioningTemplate": "ruby"
+    }
+  ],
+  "packageRules": [
+    {
+      "matchFileNames": [
+        "^.*\\.gemspec"
+      ],
+      "rangeStrategy": "auto"
     }
   ]
 }
